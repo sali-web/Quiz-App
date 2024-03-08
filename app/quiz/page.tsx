@@ -1,9 +1,9 @@
 // Utils
-import { shuffleArray } from '@/utils/arrayUtils';
+import { shuffleArray } from '../../utils/arrayUtils';
 // Components
 import Quiz from './Quiz';
 // Types
-import { Difficulty, QuestionsState, Question } from '@/types/quiz';
+import { Difficulty, QuestionsState, Question } from '../../types/quiz';
 
 const TOTAL_QUESTIONS = 10;
 

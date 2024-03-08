@@ -3,10 +3,10 @@
 import React from 'react';
 import { useRouter } from 'next/navigation';
 // Components
-import QuestionCard from '@/components/QuestionCard/QuestionCard';
-import Button from '@/components/Button/Button';
+import QuestionCard from '../../components/QuestionCard/QuestionCard';
+import Button from '../../components/Button/Button';
 // Types
-import { QuestionsState } from '@/types/quiz';
+import { QuestionsState } from '../../types/quiz';
 
 type Props = {
   questions: QuestionsState;
